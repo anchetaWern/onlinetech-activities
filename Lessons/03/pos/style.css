@@ -1,0 +1,102 @@
+#wrapper {
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#first-gray-box {
+	background-color: gray;
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+
+#first-red-box {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+
+#green-box {
+	width: 500px;
+	height: 100px;
+	background-color: green;
+	float: left;
+}
+
+#second-gray-box {
+	width: 300px;
+	height: 100px;
+	background-color: gray;
+	float: left;
+	position: relative;
+}
+
+#orange-box {
+	width: 300px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+
+#white-box {
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#pink-box {
+	background-color: pink;
+	width: 400px;
+	height: 200px;
+	float: left;
+}
+
+#blue-box {
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+	margin: 25px auto;
+}
+
+#third-gray-box {
+	width: 100px;
+	background-color: gray;
+	height: 200px;
+	float: left;
+}
+
+#second-red-box {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#fourth-gray-box {
+	width: 900px;
+	height: 100px;
+	background-color: gray;
+	float: left;
+	position: relative;
+}
+
+.red-box {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+
+#third-red-box {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#fourth-red-box {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

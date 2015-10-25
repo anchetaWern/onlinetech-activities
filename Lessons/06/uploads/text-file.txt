@@ -1,0 +1,5 @@
+new string
+new line
+another new linedog
+cat
+cow

@@ -1,0 +1,95 @@
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+#dark-gray {
+	width: 120px;
+	height: 400px;
+	background: darkgray;
+	float: left;
+}
+
+div#green {
+    width: 550px;
+    height: 100px;
+    background-color: yellowgreen;
+    float: left;
+}
+
+div#first-light-gray {
+    float: left;
+    width: 230px;
+    height: 100px;
+    background-color: lightgray;
+    position: relative;
+}
+
+div#orange {
+    width: 270px;
+    height: 300px;
+    background-color: orange;
+    float: left;
+}
+
+div#white {
+    background-color: white;
+    width: 120px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+div#pink {
+    width: 380px;
+    height: 300px;
+    background-color: pink;
+    float: left;
+}
+
+div#blue {
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+div#second-light-gray {
+    float: left;
+    width: 130px;
+    height: 300px;
+    background-color: lightgray;
+}
+
+div#darkdark-gray {
+    float: left;
+    background-color: #797979;
+    width: 900px;
+    height: 100px;
+    position: relative;
+}
+
+.red {
+    width: 50px;
+    height: 50px;
+    background-color: #F5647D;
+}
+
+div#second-red {
+    position: absolute;
+    right: 0;
+}
+
+div#third-red {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div#fourth-red {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

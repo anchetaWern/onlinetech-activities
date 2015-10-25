@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Randomizer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Randomizer</h1>
+	<div id="form-container">
+		<div class="field">		
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="e.g Yoh Asakura" autocomplete="off" autofocus>
+		</div>
+
+		<div class="field">
+			<label for="age">Age</label>
+			<input type="text" id="age" autocomplete="off" placeholder="e.g 15">
+		</div>
+
+		<div class="field">
+			<label for="species">Species</label>
+			<input type="text" id="species" autocomplete="off" placeholder="e.g Cro-Magnon">
+		</div>
+		
+		<div class="field">
+			<button id="add-player">Add</button>
+		</div>
+		
+		<button id="randomize">Pick Random Player</button>
+	</div>
+
+	<div id="player-container">
+		
+	</div>
+
+	<script src="jquery.js"></script>
+	<script src="chance.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#wrapper {
+	width: 1000px;
+	height: 500px;
+	background: #ccc;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	float: left;
+	margin: 20px;
+}
+
+.box.red {
+	background: red;
+}

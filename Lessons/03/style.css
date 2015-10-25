@@ -1,0 +1,30 @@
+body {
+	background-color: #ccc;
+}
+
+#wrapper {
+	width: 1000px;
+
+}
+
+.box {
+	width: 125px;
+	height: 125px;
+	float: left;
+}
+
+#wrapper .row:nth-child(odd) .box:nth-child(odd) {
+	background-color: black;
+}
+
+#wrapper .row:nth-child(odd) .box:nth-child(even) {
+	background-color: white;
+}
+
+#wrapper .row:nth-child(even) .box:nth-child(odd) {
+	background-color: white;
+}
+
+#wrapper .row:nth-child(even) .box:nth-child(even) {
+	background-color: black;
+}
